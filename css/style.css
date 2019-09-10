@@ -1020,7 +1020,8 @@ a.serv_link {
 .serv_bottom h5 {
 	letter-spacing: 5px;
 	word-spacing: 3px;
-     font-weight: 300;
+	 font-weight: 300;
+	 line-height: 2;
 }
 
 .serv_bottom h5 {
@@ -1051,7 +1052,7 @@ hr {
      color: #777;
 }
 .address p span { 
-    color: #ff4f81;
+    color: #4c6ef5;
     width: 30px;
     font-size: 17px;
 }
@@ -1935,3 +1936,13 @@ text-align:center;
 	}
 }
 /*-- //Responsive design --*/
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+	box-shadow:7px 7px 10px 0 rgba(76, 110, 245, .1);
+	margin-top: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
+}
