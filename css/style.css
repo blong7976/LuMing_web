@@ -708,7 +708,9 @@ h5#exampleModalLabel {
 	line-height: 36px;
 	text-align: center;
 	border-radius: 50%;
-     font-size: 14px;
+	 font-size: 14px;
+	 position: absolute;
+	 left: 0;
 }
 
 .footer-top input[type="email"] {
@@ -786,7 +788,6 @@ h4.footer-title {
 
 
 .fv3-contact p {
-	display: inline-block;
 	vertical-align: middle;
 	color: #eee;
     letter-spacing: .5px;
@@ -1575,6 +1576,12 @@ text-align:center;
 	.slide, .slide2, .slide3 {
 		height: 58vw;
 	}
+	.navbar-light .navbar-brand{
+		font-size: 26px;
+	}
+	.navbar-light .navbar-brand img{
+		vertical-align: middle !important;
+	}
 }
 @media screen and (max-width: 800px) {
 	.top-head {
@@ -1950,4 +1957,9 @@ text-align:center;
 	box-shadow:7px 7px 10px 0 rgba(76, 110, 245, .1);
 	margin-top: 1.5rem !important;
 	margin-bottom: 1.5rem !important;
+}
+.fv3-contact{
+	position: relative;
+    padding-left: 50px;
+    min-height: 40px;
 }
